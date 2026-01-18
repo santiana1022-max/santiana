@@ -3,7 +3,7 @@
   "nameEn": "Boyang Li",
   "title": "高级软件测试工程师",
   "titleEn": "Senior QA Engineer",
-  "location": "上海",
+  "location": "北京",
   "experience": "6年",
   "education": "本科 · 计算机科学与技术",
   "status": "在职，关注更具工程化与质量文化的团队",
@@ -21,8 +21,8 @@
     { "label": "团队规模", "value": "5-15人" }
   ],
   "contact": {
-    "email": "limingxuan@example.com",
-    "github": "https://github.com/limingxuan",
+    "email": "santiana1022@163.com",
+    "github": "https://github.com/santiana1022-max",
     "blog": "https://blog.limingxuan.dev",
     "linkedin": "https://linkedin.com/in/limingxuan",
     "wechat": "limingxuan_qa"
