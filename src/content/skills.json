@@ -1,0 +1,86 @@
+{
+  "categories": [
+    {
+      "id": "test-design",
+      "name": "测试设计能力",
+      "proficiency": 90,
+      "description": "系统性的测试分析与设计能力，能够针对复杂业务场景制定有效的测试策略",
+      "items": [
+        "测试用例设计（等价类、边界值、场景法、判定表）",
+        "测试策略制定与评审",
+        "风险识别与优先级评估",
+        "测试范围界定与取舍决策"
+      ]
+    },
+    {
+      "id": "automation",
+      "name": "自动化工程能力",
+      "proficiency": 85,
+      "description": "具备从 0 到 1 搭建自动化测试体系的能力，熟悉多种测试框架与工具",
+      "items": [
+        "自动化测试框架设计与搭建",
+        "API 自动化测试（REST、GraphQL）",
+        "UI 自动化测试（Web、Mobile）",
+        "测试数据管理与 Mock 服务"
+      ]
+    },
+    {
+      "id": "performance",
+      "name": "性能与稳定性",
+      "proficiency": 75,
+      "description": "能够设计并执行性能测试，分析性能瓶颈，保障系统稳定性",
+      "items": [
+        "性能测试方案设计",
+        "压测执行与结果分析",
+        "性能瓶颈定位与优化建议",
+        "稳定性测试与混沌工程实践"
+      ]
+    },
+    {
+      "id": "process",
+      "name": "流程与规范建设",
+      "proficiency": 88,
+      "description": "善于从流程层面优化测试效率，建立可持续的测试规范体系",
+      "items": [
+        "测试流程设计与持续优化",
+        "测试规范文档体系建设",
+        "质量门禁与准入准出标准",
+        "测试左移与测试右移实践"
+      ]
+    },
+    {
+      "id": "metrics",
+      "name": "质量度量与分析",
+      "proficiency": 80,
+      "description": "建立数据驱动的质量度量体系，用数据支撑质量决策",
+      "items": [
+        "缺陷分析与根因定位",
+        "质量指标体系设计",
+        "测试报告与数据可视化",
+        "质量趋势分析与预警"
+      ]
+    }
+  ],
+  "tools": [
+    { "name": "Python", "category": "编程语言", "level": "expert" },
+    { "name": "Java", "category": "编程语言", "level": "proficient" },
+    { "name": "JavaScript", "category": "编程语言", "level": "proficient" },
+    { "name": "Pytest", "category": "测试框架", "level": "expert" },
+    { "name": "Selenium", "category": "测试框架", "level": "expert" },
+    { "name": "Appium", "category": "测试框架", "level": "proficient" },
+    { "name": "Cypress", "category": "测试框架", "level": "proficient" },
+    { "name": "JMeter", "category": "性能工具", "level": "expert" },
+    { "name": "Gatling", "category": "性能工具", "level": "proficient" },
+    { "name": "Locust", "category": "性能工具", "level": "familiar" },
+    { "name": "Jenkins", "category": "CI/CD", "level": "expert" },
+    { "name": "GitHub Actions", "category": "CI/CD", "level": "proficient" },
+    { "name": "Docker", "category": "基础设施", "level": "proficient" },
+    { "name": "Kubernetes", "category": "基础设施", "level": "familiar" },
+    { "name": "MySQL", "category": "数据库", "level": "proficient" },
+    { "name": "Redis", "category": "数据库", "level": "proficient" },
+    { "name": "Postman", "category": "接口工具", "level": "expert" },
+    { "name": "Charles", "category": "抓包工具", "level": "proficient" },
+    { "name": "Git", "category": "版本控制", "level": "expert" },
+    { "name": "JIRA", "category": "项目管理", "level": "expert" }
+  ]
+}

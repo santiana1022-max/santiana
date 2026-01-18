@@ -1,0 +1,168 @@
+{
+  "projects": [
+    {
+      "id": "ecommerce-platform",
+      "title": "电商平台质量保障体系建设",
+      "industry": "电商",
+      "period": "2023.03 - 2024.06",
+      "summary": "从 0 到 1 搭建电商平台测试体系，实现核心链路自动化覆盖 90%+",
+      "role": "测试负责人",
+      "teamSize": "8人测试团队",
+      "techStack": ["Python", "Pytest", "Selenium", "JMeter", "Jenkins", "Docker"],
+      "isPinned": true,
+      "order": 1,
+      "background": "该项目是公司核心电商平台的重构项目，涉及商品、订单、支付、物流等核心业务模块，日均订单量 50 万+，对系统稳定性要求极高。",
+      "challenges": [
+        "业务链路复杂，涉及 20+ 微服务",
+        "历史遗留测试债务严重，无自动化基础",
+        "发版频率高（每周 2-3 次），测试周期压力大"
+      ],
+      "strategy": {
+        "approach": "采用分层测试策略，重点保障核心交易链路",
+        "testTypes": ["接口自动化", "UI 自动化", "性能测试", "混沌测试"],
+        "coverage": "核心链路 90%+ 自动化覆盖"
+      },
+      "implementation": {
+        "tools": ["Pytest + Allure 测试框架", "Selenium Grid 分布式 UI 测试", "JMeter 性能压测"],
+        "methods": ["测试用例分层管理", "测试数据工厂模式", "Mock 服务统一管理"]
+      },
+      "results": {
+        "metrics": [
+          { "label": "自动化覆盖率", "value": "92%", "trend": "up" },
+          { "label": "缺陷逃逸率", "value": "↓65%", "trend": "down" },
+          { "label": "回归测试效率", "value": "↑3倍", "trend": "up" },
+          { "label": "线上故障", "value": "↓70%", "trend": "down" }
+        ],
+        "highlights": [
+          "建立了完整的自动化测试体系，支撑每周多次发版",
+          "推动测试左移实践，需求评审阶段发现 30%+ 设计缺陷",
+          "建立质量度量看板，实现质量数据可视化"
+        ]
+      },
+      "reflection": "这个项目让我深刻理解到，测试体系建设不是一蹴而就的，需要结合团队现状循序渐进。最重要的是建立可持续演进的测试基础设施。"
+    },
+    {
+      "id": "fintech-risk-system",
+      "title": "金融风控系统测试保障",
+      "industry": "金融科技",
+      "period": "2021.06 - 2023.02",
+      "summary": "负责风控系统核心模块测试，保障日均千万级风控决策的准确性与稳定性",
+      "role": "核心测试工程师",
+      "teamSize": "5人测试团队",
+      "techStack": ["Java", "TestNG", "RestAssured", "Gatling", "Kafka", "Redis"],
+      "isPinned": true,
+      "order": 2,
+      "background": "风控系统是公司核心基础设施，承担实时风险评估、反欺诈检测等职责，日均处理风控请求 1000 万+，对延迟和准确性要求极高。",
+      "challenges": [
+        "风控规则复杂，测试场景组合爆炸",
+        "实时性要求高，P99 延迟需控制在 50ms 以内",
+        "数据敏感，测试环境与生产环境差异大"
+      ],
+      "strategy": {
+        "approach": "基于风险的测试策略，重点覆盖高风险场景",
+        "testTypes": ["接口测试", "规则引擎测试", "性能测试", "数据一致性测试"],
+        "coverage": "核心风控规则 100% 覆盖"
+      },
+      "implementation": {
+        "tools": ["RestAssured 接口测试", "Gatling 性能测试", "自研规则测试框架"],
+        "methods": ["参数化测试覆盖规则组合", "流量回放测试", "混沌注入测试"]
+      },
+      "results": {
+        "metrics": [
+          { "label": "规则覆盖率", "value": "100%", "trend": "up" },
+          { "label": "误判率", "value": "↓40%", "trend": "down" },
+          { "label": "性能达标率", "value": "99.9%", "trend": "up" },
+          { "label": "故障发现", "value": "↑50%", "trend": "up" }
+        ],
+        "highlights": [
+          "设计规则引擎专项测试方案，实现规则变更的自动化回归",
+          "建立性能基线，实现性能劣化的自动预警",
+          "推动测试数据脱敏方案，解决测试数据安全问题"
+        ]
+      },
+      "reflection": "金融系统的测试需要更加严谨，不仅要关注功能正确性，还要关注数据一致性、安全合规等方面。测试策略需要与业务风险紧密结合。"
+    },
+    {
+      "id": "saas-platform",
+      "title": "SaaS 平台持续集成测试体系",
+      "industry": "企业服务",
+      "period": "2019.08 - 2021.05",
+      "summary": "搭建 CI/CD 测试集成流水线，实现从提交到部署的全自动化质量门禁",
+      "role": "测试开发工程师",
+      "teamSize": "12人研发团队",
+      "techStack": ["JavaScript", "Cypress", "Jest", "GitHub Actions", "Docker", "K8s"],
+      "isPinned": false,
+      "order": 3,
+      "background": "B2B SaaS 产品，服务 500+ 企业客户，需要支撑多租户、多版本的复杂场景，同时保证快速迭代与稳定性的平衡。",
+      "challenges": [
+        "多租户架构，测试隔离复杂",
+        "前端交互复杂，E2E 测试维护成本高",
+        "客户定制化需求多，回归范围难以界定"
+      ],
+      "strategy": {
+        "approach": "测试金字塔策略，重单元轻 E2E",
+        "testTypes": ["单元测试", "组件测试", "E2E 测试", "契约测试"],
+        "coverage": "单元测试 80%+，E2E 核心流程覆盖"
+      },
+      "implementation": {
+        "tools": ["Jest 单元测试", "Cypress E2E 测试", "Pact 契约测试"],
+        "methods": ["测试分层策略", "并行测试执行", "失败用例自动重试"]
+      },
+      "results": {
+        "metrics": [
+          { "label": "流水线成功率", "value": "95%+", "trend": "up" },
+          { "label": "部署频率", "value": "↑2倍", "trend": "up" },
+          { "label": "回滚率", "value": "↓80%", "trend": "down" },
+          { "label": "测试时长", "value": "↓60%", "trend": "down" }
+        ],
+        "highlights": [
+          "搭建完整的 CI/CD 测试流水线，实现质量门禁自动化",
+          "引入契约测试，有效保障微服务接口兼容性",
+          "优化测试执行效率，流水线耗时从 40 分钟降至 15 分钟"
+        ]
+      },
+      "reflection": "CI/CD 测试集成的核心是平衡测试覆盖与执行效率。过于追求覆盖率会拖慢发布节奏，测试策略需要与团队的发布频率匹配。"
+    },
+    {
+      "id": "mobile-app",
+      "title": "移动 App 自动化测试实践",
+      "industry": "移动互联网",
+      "period": "2018.03 - 2019.07",
+      "summary": "负责 iOS/Android 双端 App 测试，建立移动端自动化测试基础设施",
+      "role": "测试工程师",
+      "teamSize": "6人测试团队",
+      "techStack": ["Appium", "Python", "XCTest", "Espresso", "Firebase Test Lab"],
+      "isPinned": false,
+      "order": 4,
+      "background": "面向 C 端用户的移动 App，用户量 500 万+，需要覆盖 iOS、Android 双平台，设备碎片化严重。",
+      "challenges": [
+        "双平台维护成本高",
+        "设备碎片化，兼容性问题多",
+        "App 启动速度、流畅度等体验指标难以自动化度量"
+      ],
+      "strategy": {
+        "approach": "核心流程自动化 + 探索性测试结合",
+        "testTypes": ["功能测试", "兼容性测试", "性能测试", "专项测试"],
+        "coverage": "核心流程自动化，兼容性云测试覆盖"
+      },
+      "implementation": {
+        "tools": ["Appium 跨平台自动化", "Firebase Test Lab 云测试", "自研性能采集工具"],
+        "methods": ["Page Object 设计模式", "云端设备并行测试", "Monkey 测试"]
+      },
+      "results": {
+        "metrics": [
+          { "label": "自动化用例", "value": "200+", "trend": "up" },
+          { "label": "设备覆盖", "value": "50+", "trend": "up" },
+          { "label": "崩溃率", "value": "↓60%", "trend": "down" },
+          { "label": "回归效率", "value": "↑2倍", "trend": "up" }
+        ],
+        "highlights": [
+          "搭建 Appium 自动化框架，实现双平台用例复用",
+          "引入云测试平台，解决设备碎片化测试难题",
+          "建立性能基线监控，实现 App 启动、内存等指标的持续监控"
+        ]
+      },
+      "reflection": "移动端测试的挑战在于设备碎片化和用户体验的量化。自动化只是手段，更重要的是建立有效的质量度量体系。"
+    }
+  ]
+}

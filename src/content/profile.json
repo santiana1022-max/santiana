@@ -1,0 +1,56 @@
+{
+  "name": "李博洋",
+  "nameEn": "Boyang Li",
+  "title": "高级软件测试工程师",
+  "titleEn": "Senior QA Engineer",
+  "location": "上海",
+  "experience": "6年",
+  "education": "本科 · 计算机科学与技术",
+  "status": "在职，关注更具工程化与质量文化的团队",
+  "philosophy": "测试不是「找 Bug」，而是通过工程化手段，持续保障产品的可交付性与可靠性。",
+  "tags": [
+    "测试工程化实践者",
+    "自动化测试体系建设者",
+    "质量驱动交付",
+    "CI/CD 测试集成推进者"
+  ],
+  "highlights": [
+    { "label": "测试经验", "value": "6年" },
+    { "label": "自动化覆盖", "value": "85%+" },
+    { "label": "主导项目", "value": "10+" },
+    { "label": "团队规模", "value": "5-15人" }
+  ],
+  "contact": {
+    "email": "limingxuan@example.com",
+    "github": "https://github.com/limingxuan",
+    "blog": "https://blog.limingxuan.dev",
+    "linkedin": "https://linkedin.com/in/limingxuan",
+    "wechat": "limingxuan_qa"
+  },
+  "about": {
+    "summary": "6 年软件测试经验，专注于测试工程化与自动化体系建设。从功能测试起步，逐步深入接口测试、自动化测试、性能测试领域，形成了完整的测试能力体系。",
+    "narrative": [
+      "我的职业起点是一名功能测试工程师，在项目中逐渐意识到：单纯的手工测试无法支撑快速迭代的需求，测试必须工程化。",
+      "过去 6 年，我主导或深度参与了多个大型项目的测试工作，从 0 到 1 搭建过自动化测试框架，推动过测试左移实践，建立过质量度量体系。",
+      "我相信，优秀的测试工程师不仅要能发现问题，更要能从流程、工具、规范层面系统性地预防问题。"
+    ],
+    "methodology": [
+      {
+        "title": "测试左移",
+        "description": "在需求评审、设计评审阶段介入，提前识别风险点"
+      },
+      {
+        "title": "质量驱动交付",
+        "description": "以质量指标为导向，驱动团队持续改进"
+      },
+      {
+        "title": "持续反馈",
+        "description": "通过自动化测试与 CI/CD 集成，实现快速反馈闭环"
+      },
+      {
+        "title": "数据说话",
+        "description": "建立质量度量体系，用数据支撑决策"
+      }
+    ]
+  }
+}

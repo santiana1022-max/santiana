@@ -1,0 +1,30 @@
+{
+  "education": [
+    {
+      "id": "undergraduate",
+      "degree": "本科",
+      "major": "计算机科学与技术",
+      "school": "上海理工大学",
+      "period": "2014 - 2018",
+      "description": "系统学习计算机基础理论与软件工程方法论",
+      "courses": [
+        "软件工程",
+        "数据结构与算法",
+        "操作系统",
+        "计算机网络",
+        "数据库原理"
+      ],
+      "highlights": [
+        "软件工程课程设计优秀",
+        "参与校内项目实践，担任测试角色"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "ISTQB 基础级认证",
+      "issuer": "ISTQB",
+      "year": "2019"
+    }
+  ]
+}
